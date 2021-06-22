@@ -4,11 +4,11 @@ git clone https://github.com/julibaccin/Wheather-Server.git
 
 cd wheather-server
 
-## 1
+## 1 Install Package
 
 npm install
 
-## Set .env
+## 2 Set .env
 
 Create a .env file, and set:
 
@@ -20,10 +20,10 @@ OPEN_WEATHER_URL=http://api.openweathermap.org/data/2.5/
 
 OPEN_WEATHER_KEY=?
 
-## 2
+## 3 Run Tests
 
 npm run test
 
-## 3
+## 4 Run Server
 
 npm start
