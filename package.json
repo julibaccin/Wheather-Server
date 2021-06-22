@@ -28,6 +28,8 @@
     "extends": "./node_modules/standard/eslintrc.json"
   },
   "jest": {
-    "setupFiles": ["dotenv/config"]
+    "setupFiles": [
+      "dotenv/config"
+    ]
   }
 }
